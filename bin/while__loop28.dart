@@ -14,7 +14,7 @@ void main() {
   int m = 0;
   for(int i = 123; i<130; i++) {
     if (isPrime(i) == true) {
-      m+=i;
+      m*=i;
     }
   }
   print(m);
