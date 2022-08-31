@@ -16,7 +16,7 @@ void main() {
     if (isPrime(i) == true) {
       
       m += i;
-      print(m);
+      
     }
   }
   print(m-1);
